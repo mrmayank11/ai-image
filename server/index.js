@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 import mongoose from 'mongoose';
 import connectDB from './mongodb/connect.js';
 import postRoutes from './routes/postRoutes.js';
-import dalleRoutes from './routes/DalleRoutes.js';
+import dalleRoutes from './routes/dalleRoutes.js';
 import cors from 'cors';
 
 const app = express();
